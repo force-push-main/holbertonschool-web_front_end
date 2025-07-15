@@ -361,10 +361,10 @@ ul.row {
   color: var(--text-color);
 }
 
-.social_link {
+.social-link {
   display: block;
 }
 
-.social_link svg {
+.social-link svg {
   color: var(--text-color);
 }
