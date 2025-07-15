@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-header {
-    justify-content: var(--section-header-align);
+    text-align: var(--section-header-align);
 }
 
 .section-tagline {
