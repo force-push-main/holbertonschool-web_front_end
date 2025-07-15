@@ -35,7 +35,7 @@
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
-  --nav-item-hover: var(--color-primary);
+  --nav-item-link-hover: var(--color-primary);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -234,6 +234,10 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
+.navbar-menu {
+  float: right;
+}
+
 .nav {
   margin: 0;
   padding: 0;
@@ -252,11 +256,11 @@ h6 {
 
 .nav .nav-link {
   display: block;
-  padding: 0.5rem auto;
+  padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
-  color: var(--nav-item-hover);
+  color: var(--nav-item-link-hover);
 }
 
 .visually-hidden {
