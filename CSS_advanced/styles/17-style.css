@@ -240,6 +240,7 @@ h6 {
 }
 
 .section-header {
+  padding: var(--section-header-padding);
   text-align: var(--section-header-align);
 }
 
@@ -248,7 +249,7 @@ h6 {
 }
 
 .section-footer {
-  padding: var(--section-footer-align);
+  padding: var(--section-footer-padding);
   text-align: var(--section-footer-align);
 }
 
