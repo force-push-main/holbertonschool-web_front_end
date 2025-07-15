@@ -52,7 +52,7 @@ a:hover {
 }
 
 a:active {
-  columns: var(--color-light-grey);
+  background-color: var(--color-light-grey);
 }
 
 h1,
